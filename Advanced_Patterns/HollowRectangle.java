@@ -1,8 +1,8 @@
 class HollowRectangle{
-    public static void main(String[] args) {
-        for(int i = 1; i <= 4; i++){
-            for(int j = 1; j <= 5; j++){
-                if((i==1 || i==4) || (j==1 || j==5)){
+    public static void printHollowRectangle(int rows, int columns){
+        for(int i = 1; i <= rows; i++){
+            for(int j = 1; j <= columns; j++){
+                if((i==1 || i==rows) || (j==1 || j==columns)){
                     System.out.print("* ");
                 }else{
                     System.out.print("  ");
@@ -10,5 +10,8 @@ class HollowRectangle{
             }
             System.out.println();
         }
+    }
+    public static void main(String[] args) {
+        printHollowRectangle(4,5);
     }
 }
