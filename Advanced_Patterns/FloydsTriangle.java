@@ -7,7 +7,7 @@ PS :- Print Floyd's triangle
 7 8 9 10
 11 12 13 14 15
 
- */
+*/
 public class FloydsTriangle {
     public static void printFloydsTriangle(int n){
         int counter = 1;
