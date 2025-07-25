@@ -1,3 +1,4 @@
+// PS :- Find the array index of an element
 public class LinearSearch{
     public static int findIndex (int arr[],int key){
         for(int i = 0; i < arr.length; i++){
