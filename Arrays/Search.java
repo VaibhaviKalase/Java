@@ -1,6 +1,5 @@
 // Find the largest and smallest number in an array
 
-import java.util.*;
 public class Search {
 
     public static void findNum(int num[]){
