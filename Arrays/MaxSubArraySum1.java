@@ -1,5 +1,5 @@
-// Brute force approach
-public class MaxSubArraySum{
+// Brute force approach (Time complexity = O(n^3))
+public class MaxSubArraySum1{
     public static void printMaxSubAraySum(int numbers[]){
         int maxSum = Integer.MIN_VALUE;
         for(int i = 0; i < numbers.length; i++){
